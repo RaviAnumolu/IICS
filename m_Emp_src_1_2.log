@@ -1,0 +1,229 @@
+Agent Group Id: 012P1I25000000000002
+Agent Group Name: Gowshik
+Agent Name: Gowshik
+Agent Id: 012P1I08000000000002
+Task Name: m_Emp_src_1
+Task Type: MTT_TEST
+Task Id: 012P1I0Z000000000003
+Run Id: 2
+Service Id: 1638064
+Started By: ravibabu2108@gmail.com
+Run Context Type: ICS_UI
+08/24/2024 21:17:13 **** Importing Connection: Conn_012P1I0B000000000003 ...
+08/24/2024 21:17:13 **** Importing Connection: Conn_012P1I0B000000000005 ...
+08/24/2024 21:17:13 **** Importing Source Definition: EMP ...
+08/24/2024 21:17:13 **** Importing Target Definition: EMP_TARGET ...
+08/24/2024 21:17:13 **** Importing SessionConfig: default_session_config ...
+    <Warning> :  The Error Log DB Connection value should have Relational: as the prefix.
+    <Warning> :  Invalid value  for attribute Error Log DB Connection. Will use the default value 
+    Validating Source Definition  EMP...
+    Validating Target Definition  EMP_TARGET...
+08/24/2024 21:17:13 **** Importing Mapping: Mapping0 ...
+    <Warning> :  transformation: Src_EMP_Ora - Invalid value  for attribute Output is repeatable. Will use the default value Never    [transformation< Src_EMP_Ora > ] 
+Validating transformations of mapping Mapping0...
+Validating mapping variable(s).
+08/24/2024 21:17:13 **** Importing Workflow: wf_mtt_012P1I0Z000000000003 ...
+    <Warning> :  Invalid value None for attribute Pushdown Optimization Context. Will use the default value None     [Session< s_mtt_012P1I0Z000000000003 > ] 
+    <Warning> :  The value entered is not a valid integer.
+    <Warning> :  Invalid value NO for attribute Fail task after wait time. Will use the default value 
+Successfully extracted session instance [s_mtt_012P1I0Z000000000003].  Starting repository sequence id is [1728955682]
+======================================================================
+DIRECTOR> VAR_27085 [2024-08-24 21:17:13.385] Parameter file [C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_012P1I0Z000000000003.param] is opened for [session [wf_mtt_012P1I0Z000000000003.s_mtt_012P1I0Z000000000003]].
+DIRECTOR> VAR_27062 [2024-08-24 21:17:13.387] Warning! Cannot find section for worklet [wf_mtt_012P1I0Z000000000003] and folder [] in parameter file [C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\data\parameters\s_mtt_012P1I0Z000000000003.param].
+DIRECTOR> TM_6014 [2024-08-24 21:17:13.387] Initializing session [s_mtt_012P1I0Z000000000003] at [Sat Aug 24 21:17:13 2024].
+DIRECTOR> TM_6683 [2024-08-24 21:17:13.389] Repository Name: [XMLRepository]
+DIRECTOR> TM_6684 [2024-08-24 21:17:13.389] Server Name: [rDTM]
+DIRECTOR> TM_6686 [2024-08-24 21:17:13.389] Folder: []
+DIRECTOR> TM_6685 [2024-08-24 21:17:13.389] Workflow: [wf_mtt_012P1I0Z000000000003] Run Instance Name: [] Run Id: [0]
+DIRECTOR> TM_6992 [2024-08-24 21:17:13.389] Operating System Type [NT]
+DIRECTOR> TM_6101 [2024-08-24 21:17:13.389] Mapping name: Mapping0.
+DIRECTOR> TM_6964 [2024-08-24 21:17:13.389] Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+DIRECTOR> TM_6703 [2024-08-24 21:17:13.389] Session [s_mtt_012P1I0Z000000000003] is run by 64-bit Integration Service  [], version [10.2.0 HotFix2], build [0321].
+MANAGER> PETL_24091 [2024-08-24 21:17:14.435] Thread [MANAGER] has the ID [1].
+MANAGER> PETL_24058 [2024-08-24 21:17:14.435] Running Partition Group [1].
+MANAGER> PETL_24000 [2024-08-24 21:17:14.435] Parallel Pipeline Engine initializing.
+MONITOR> PETL_24091 [2024-08-24 21:17:14.436] Thread [MONITOR] has the ID [2].
+MANAGER> PETL_24001 [2024-08-24 21:17:14.437] Parallel Pipeline Engine running.
+MANAGER> PETL_24003 [2024-08-24 21:17:14.437] Initializing session run.
+MAPPING> PETL_24091 [2024-08-24 21:17:14.437] Thread [MAPPING] has the ID [3].
+MAPPING> CMN_1569 [2024-08-24 21:17:14.438] Server Mode: [UNICODE]
+MAPPING> CMN_1570 [2024-08-24 21:17:14.438] Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+MAPPING> TM_6151 [2024-08-24 21:17:14.438] The session sort order is [Binary].
+MAPPING> TM_6185 [2024-08-24 21:17:14.438] Warning. Code page validation is disabled in this session.
+MAPPING> CMN_65109 [2024-08-24 21:17:14.438] Current Timezone:[UTC +5:30]
+MAPPING> CMN_65111 [2024-08-24 21:17:14.438] Current Process ID:[19080]
+MAPPING> TM_6155 [2024-08-24 21:17:14.438] Using HIGH precision processing.
+MAPPING> TM_6180 [2024-08-24 21:17:14.438] Deadlock retry logic will not be implemented.
+MAPPING> TM_6187 [2024-08-24 21:17:14.438] Session target-based commit interval is [10000].
+MAPPING> TM_6307 [2024-08-24 21:17:14.439] DTM error log disabled. 
+MAPPING> TE_7022 [2024-08-24 21:17:14.439] TShmWriter: Initialized
+MAPPING> TM_6007 [2024-08-24 21:17:14.440] DTM initialized successfully for session [s_mtt_012P1I0Z000000000003]
+DIRECTOR> PETL_24033 [2024-08-24 21:17:15.451] All DTM Connection Info: [<NONE>].
+MANAGER> PETL_24004 [2024-08-24 21:17:15.451] Starting pre-session tasks. : (Sat Aug 24 21:17:15 2024)
+PRE-SESS> PETL_24091 [2024-08-24 21:17:15.452] Thread [PRE-SESS] has the ID [4].
+PRE-SESS> DBG_21349 [2024-08-24 21:17:15.454] No load constraints for Target [EMP_TARGET]. It does not reference any primary table from the same active source or transaction generator.
+PRE-SESS> DBG_21104 [2024-08-24 21:17:15.454] Determining truncate order for [EMP_TARGET] [instance id:2]
+PRE-SESS> DBG_21531 [2024-08-24 21:17:15.454]     Truncate order for [EMP_TARGET] [instance id:2] determined successfully
+PRE-SESS> CMN_1021 [2024-08-24 21:17:15.495] Database driver event...
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+ODBC Version:	03.80.0000
+.
+DBMS Name:	Oracle
+.
+DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
+.
+Driver Name:	dwora28.dll
+.
+Driver Version:	08.02.3072 (B1917, U1723)
+.
+Driver ODBC Version:	03.52
+.]
+
+PRE-SESS> WRT_8365 [2024-08-24 21:17:15.495] Starting truncate for target table [SCOTT.EMP_TARGET]. : (Sat Aug 24 21:17:15 2024)
+PRE-SESS> WRT_8451 [2024-08-24 21:17:15.495] Query used for Truncate table [TRUNCATE TABLE SCOTT.EMP_TARGET]
+PRE-SESS> WRT_8022 [2024-08-24 21:17:15.541] Truncate table for table [SCOTT.EMP_TARGET] succeeded. : (Sat Aug 24 21:17:15 2024)
+MANAGER> PETL_24027 [2024-08-24 21:17:15.617] Pre-session task completed successfully. : (Sat Aug 24 21:17:15 2024)
+DIRECTOR> PETL_24006 [2024-08-24 21:17:15.617] Starting data movement.
+MAPPING> TM_6660 [2024-08-24 21:17:15.618] Total Buffer Pool size is 1467184 bytes and Block size is 79288 bytes.
+READER_1_1_1> PETL_24091 [2024-08-24 21:17:15.620] Thread [READER_1_1_1] has the ID [5].
+READER_1_1_1> DBG_21438 [2024-08-24 21:17:15.621] Reader: Source is [odbc://dbtype=Oracle;host=localhost;port=1521;database=XE], Type [ODBC], User [system]
+READER_1_1_1> BLKR_16051 [2024-08-24 21:17:15.622] Source database connection [Conn_012P1I0B000000000003] code page: [UTF-8 encoding of Unicode]
+READER_1_1_1> CMN_1021 [2024-08-24 21:17:15.658] Database driver event...
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=system;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [system]
+ODBC Version:	03.80.0000
+.
+DBMS Name:	Oracle
+.
+DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
+.
+Driver Name:	dwora28.dll
+.
+Driver Version:	08.02.3072 (B1917, U1723)
+.
+Driver ODBC Version:	03.52
+.]
+
+READER_1_1_1> BLKR_16003 [2024-08-24 21:17:15.658] Initialization completed successfully.
+TRANSF_1_1_1> PETL_24091 [2024-08-24 21:17:15.659] Thread [TRANSF_1_1_1] has the ID [6].
+WRITER_1_*_1> PETL_24091 [2024-08-24 21:17:15.660] Thread [WRITER_1_*_1] has the ID [7].
+WRITER_1_*_1> WRT_8147 [2024-08-24 21:17:15.660] Writer: Target is Database [odbc://dbtype=Oracle;host=localhost;port=1521;database=XE], Type [ODBC], User [scott], Bulk Mode [OFF]
+WRITER_1_*_1> CMN_1021 [2024-08-24 21:17:15.689] Database driver event...
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+ODBC Event Using array fetches.
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+ODBC Version:	03.80.0000
+.
+DBMS Name:	Oracle
+.
+DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
+.
+Driver Name:	dwora28.dll
+.
+Driver Version:	08.02.3072 (B1917, U1723)
+.
+Driver ODBC Version:	03.52
+.]
+
+WRITER_1_*_1> WRT_8221 [2024-08-24 21:17:15.689] Target database connection [Conn_012P1I0B000000000005] code page: [UTF-8 encoding of Unicode]
+WRITER_1_*_1> WRT_8397 [2024-08-24 21:17:15.690] Appending output data to file [C:\PROGRA~1\INFORM~1\apps\Data_Integration_Server\data\error\6U2oG5iG7NnjuCqsZij7Y1\ff_emp_output1.bad] (initial size [80]).
+WRITER_1_*_1> WRT_8124 [2024-08-24 21:17:15.690] Target Table EMP_TARGET :SQL INSERT statement:
+INSERT INTO SCOTT.EMP_TARGET(EMPNO,ENAME,JOB,MGR,HIREDATE,SAL,COMM,DEPTNO)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?) 
+WRITER_1_*_1> WRT_8020 [2024-08-24 21:17:15.690] No column marked as primary key for table [EMP_TARGET]. UPDATEs Not Supported.
+WRITER_1_*_1> WRT_8270 [2024-08-24 21:17:15.690] Target connection group #1 consists of target(s) [EMP_TARGET]
+WRITER_1_*_1> WRT_8003 [2024-08-24 21:17:15.690] Writer initialization complete.
+READER_1_1_1> BLKR_16007 [2024-08-24 21:17:15.691] Reader run started.
+WRITER_1_*_1> WRT_8005 [2024-08-24 21:17:15.691] Writer run started.
+WRITER_1_*_1> WRT_8158 [2024-08-24 21:17:15.691] 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sat Aug 24 21:17:15 2024
+
+Target tables:
+
+     EMP_TARGET
+
+
+READER_1_1_1> RR_4010 [2024-08-24 21:17:15.691] SQ instance [Src_EMP_Ora] SQL Query [SELECT SYSTEM.EMP.EMPNO, SYSTEM.EMP.ENAME, SYSTEM.EMP.JOB, SYSTEM.EMP.MGR, SYSTEM.EMP.HIREDATE, SYSTEM.EMP.SAL, SYSTEM.EMP.COMM, SYSTEM.EMP.DEPTNO FROM SYSTEM.EMP]
+READER_1_1_1> RR_4049 [2024-08-24 21:17:15.691] SQL Query issued to database : (Sat Aug 24 21:17:15 2024)
+READER_1_1_1> RR_4050 [2024-08-24 21:17:15.694] First row returned from database to reader : (Sat Aug 24 21:17:15 2024)
+READER_1_1_1> BLKR_16019 [2024-08-24 21:17:15.694] Read [21] rows, read [0] error rows for source table [EMP] instance name [EMP]
+TRANSF_1_1_1> TE_7007 [2024-08-24 21:17:15.694] Transformation Evaluation Error [<<Expression Error>> [TO_DATE]: invalid string for converting to Date
+... t:TO_DATE(u:'01/01/9999',u:'MM/DD/YYYY HH24:MI:SS')]
+TRANSF_1_1_1> CMN_1761 [2024-08-24 21:17:15.694] Timestamp Event: [Sat Aug 24 21:17:15 2024]
+TRANSF_1_1_1> TT_11132 [2024-08-24 21:17:15.694] Transformation [Expression] had an error evaluating output column [out_hiredate]. Error message is [<<Expression Error>> [TO_DATE]: invalid string for converting to Date
+... t:TO_DATE(u:'01/01/9999',u:'MM/DD/YYYY HH24:MI:SS')].
+
+TRANSF_1_1_1> CMN_1761 [2024-08-24 21:17:15.694] Timestamp Event: [Sat Aug 24 21:17:15 2024]
+TRANSF_1_1_1> TT_11019 [2024-08-24 21:17:15.694] There is an error in the port [out_hiredate]: The default value for the port is set to: ERROR(<<Expression Error>> [ERROR]: transformation error
+... nl:ERROR(u:'transformation error')).
+TRANSF_1_1_1> CMN_1761 [2024-08-24 21:17:15.694] Timestamp Event: [Sat Aug 24 21:17:15 2024]
+TRANSF_1_1_1> TT_11021 [2024-08-24 21:17:15.694] An error occurred moving data from the transformation Expression: to the transformation IUpdateStrategyNode4.
+READER_1_1_1> BLKR_16008 [2024-08-24 21:17:15.694] Reader run completed.
+TRANSF_1_1_1> DBG_21082 [2024-08-24 21:17:15.694] Expression (Input Group 0):  : Current Input data:
+TRANSF_1_1_1> CMN_1053 [2024-08-24 21:17:15.694]   Input row from Src_EMP_Ora: Rowdata: ( RowType=0(insert) Src Rowid=17 Targ Rowid=17
+  EMPNO (EMPNO:Dec18Fixed.0:): "1000"
+  ENAME (ENAME:UniChar.10:): "GAVIN"
+  JOB (JOB:UniChar.9:): "ARCHITE"
+  MGR (MGR:Dec18Fixed.0:): "1001"
+  HIREDATE (HIREDATE:Date:): "(NULL)"
+  SAL (SAL:Dec18Fixed.2:): "90000.00"
+  COMM (COMM:Dec18Fixed.2:): "100.00"
+  DEPTNO (DEPTNO:Dec18Fixed.0:): "40"
+)
+
+TRANSF_1_1_1> DBG_21216 [2024-08-24 21:17:15.694] Finished transformations for Source Qualifier [Src_EMP_Ora]. Total errors [0] 
+WRITER_1_*_1> WRT_8167 [2024-08-24 21:17:15.694] Start loading table [EMP_TARGET] at: Sat Aug 24 21:17:15 2024
+WRITER_1_*_1> WRT_8168 [2024-08-24 21:17:15.699] End loading table [EMP_TARGET] at: Sat Aug 24 21:17:15 2024
+WRITER_1_*_1> WRT_8141 [2024-08-24 21:17:15.699] 
+Commit on end-of-data  Sat Aug 24 21:17:15 2024
+===================================================
+
+WRT_8036 Target: EMP_TARGET (Instance Name: [EMP_TARGET])
+WRT_8038 Inserted rows - Requested: 20         Applied: 20         Rejected: 0          Affected: 20        
+
+WRITER_1_*_1> WRT_8035 [2024-08-24 21:17:15.699] Load complete time: Sat Aug 24 21:17:15 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: EMP_TARGET (Instance Name: [EMP_TARGET])
+WRT_8038 Inserted rows - Requested: 20         Applied: 20         Rejected: 0          Affected: 20        
+
+
+WRITER_1_*_1> WRT_8043 [2024-08-24 21:17:15.699] *****END LOAD SESSION*****
+WRITER_1_*_1> WRT_8006 [2024-08-24 21:17:15.700] Writer run completed.
+MANAGER> PETL_24031 [2024-08-24 21:17:15.701] 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [Src_EMP_Ora] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [Src_EMP_Ora] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [EMP_TARGET] has completed. The total run time was insufficient for any meaningful statistics.
+
+MANAGER> PETL_24005 [2024-08-24 21:17:15.837] Starting post-session tasks. : (Sat Aug 24 21:17:15 2024)
+POST-SESS> PETL_24091 [2024-08-24 21:17:15.838] Thread [POST-SESS] has the ID [8].
+MANAGER> PETL_24029 [2024-08-24 21:17:15.913] Post-session task completed successfully. : (Sat Aug 24 21:17:15 2024)
+MAPPING> TM_6018 [2024-08-24 21:17:15.913] The session completed with [1] row transformation errors. 
+MANAGER> PETL_24002 [2024-08-24 21:17:16.520] Parallel Pipeline Engine finished.
+DIRECTOR> PETL_24012 [2024-08-24 21:17:16.582] Session run completed successfully.
+DIRECTOR> TM_6022 [2024-08-24 21:17:16.582] 
+
+SESSION LOAD SUMMARY
+================================================
+
+DIRECTOR> TM_6252 [2024-08-24 21:17:16.582] Source Load Summary.
+DIRECTOR> CMN_1740 [2024-08-24 21:17:16.582] Table: [Src_EMP_Ora] (Instance Name: [Src_EMP_Ora] Instance UI Name: [Src_EMP_Ora])
+	 Output Rows [21], Affected Rows [21], Applied Rows [21], Rejected Rows [0]
+DIRECTOR> TM_6253 [2024-08-24 21:17:16.582] Target Load Summary.
+DIRECTOR> CMN_1740 [2024-08-24 21:17:16.582] Table: [EMP_TARGET] (Instance Name: [EMP_TARGET] Instance UI Name: [ff_emp])
+	 Output Rows [20], Affected Rows [20], Applied Rows [20], Rejected Rows [0]
+DIRECTOR> TM_6023 [2024-08-24 21:17:16.582] 
+===================================================
+
+DIRECTOR> TM_6020 [2024-08-24 21:17:16.582] Session [s_mtt_012P1I0Z000000000003] completed at [Sat Aug 24 21:17:16 2024].
