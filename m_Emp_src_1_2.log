@@ -1,4 +1,3 @@
-Agent Group Id: 012P1I25000000000002
 Agent Group Name: Gowshik
 Agent Name: Gowshik
 Agent Id: 012P1I08000000000002
@@ -65,20 +64,29 @@ PRE-SESS> DBG_21349 [2024-08-24 21:17:15.454] No load constraints for Target [EM
 PRE-SESS> DBG_21104 [2024-08-24 21:17:15.454] Determining truncate order for [EMP_TARGET] [instance id:2]
 PRE-SESS> DBG_21531 [2024-08-24 21:17:15.454]     Truncate order for [EMP_TARGET] [instance id:2] determined successfully
 PRE-SESS> CMN_1021 [2024-08-24 21:17:15.495] Database driver event...
-CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
-DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
-ODBC Event Using array fetches.
-ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+
+ODBC Event Using array fetches.
+
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+
 ODBC Version:	03.80.0000
-.
+.
+
 DBMS Name:	Oracle
-.
+.
+
 DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
-.
+.
+
 Driver Name:	dwora28.dll
-.
+.
+
 Driver Version:	08.02.3072 (B1917, U1723)
-.
+.
+
 Driver ODBC Version:	03.52
 .]
 
@@ -92,20 +100,29 @@ READER_1_1_1> PETL_24091 [2024-08-24 21:17:15.620] Thread [READER_1_1_1] has the
 READER_1_1_1> DBG_21438 [2024-08-24 21:17:15.621] Reader: Source is [odbc://dbtype=Oracle;host=localhost;port=1521;database=XE], Type [ODBC], User [system]
 READER_1_1_1> BLKR_16051 [2024-08-24 21:17:15.622] Source database connection [Conn_012P1I0B000000000003] code page: [UTF-8 encoding of Unicode]
 READER_1_1_1> CMN_1021 [2024-08-24 21:17:15.658] Database driver event...
-CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
-DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
-ODBC Event Using array fetches.
-ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=system;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [system]
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+
+ODBC Event Using array fetches.
+
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=system;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [system]
+
 ODBC Version:	03.80.0000
-.
+.
+
 DBMS Name:	Oracle
-.
+.
+
 DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
-.
+.
+
 Driver Name:	dwora28.dll
-.
+.
+
 Driver Version:	08.02.3072 (B1917, U1723)
-.
+.
+
 Driver ODBC Version:	03.52
 .]
 
@@ -114,20 +131,29 @@ TRANSF_1_1_1> PETL_24091 [2024-08-24 21:17:15.659] Thread [TRANSF_1_1_1] has the
 WRITER_1_*_1> PETL_24091 [2024-08-24 21:17:15.660] Thread [WRITER_1_*_1] has the ID [7].
 WRITER_1_*_1> WRT_8147 [2024-08-24 21:17:15.660] Writer: Target is Database [odbc://dbtype=Oracle;host=localhost;port=1521;database=XE], Type [ODBC], User [scott], Bulk Mode [OFF]
 WRITER_1_*_1> CMN_1021 [2024-08-24 21:17:15.689] Database driver event...
-CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
-DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
-ODBC Event Using array fetches.
-ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+CMN_1021 [Reading driver properties from : C:\Program Files\Informatica Cloud Secure Agent\apps\Data_Integration_Server\70.0.1.1\ICS\main\bin\rdtm/../../../../drivers/driver.properties
+
+DTM flag to determine driver name is not found hence default to [DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE] driver.
+
+ODBC Event Using array fetches.
+
+ODBC Event Using Single Row Inserts. connect string = [Driver=DataDirect CLOSED 8.0 Oracle Wire Protocol for Informatica - BASE;Host=localhost;ServiceName=XE;Port=1521;UID=scott;AS=6000000;EBL=0;ENS=1;IACP=4;ETWT=1;WorkArounds2=2;EnableEmptyLobs=1]. userid = [scott]
+
 ODBC Version:	03.80.0000
-.
+.
+
 DBMS Name:	Oracle
-.
+.
+
 DBMS Version:	21.00.0000 Oracle 21.0.0.0.0
-.
+.
+
 Driver Name:	dwora28.dll
-.
+.
+
 Driver Version:	08.02.3072 (B1917, U1723)
-.
+.
+
 Driver ODBC Version:	03.52
 .]
 
